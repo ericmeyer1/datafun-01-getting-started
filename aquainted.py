@@ -32,7 +32,7 @@ print()
 
 triangle_base = 10
 triangle_height = 5
-triangle_area = triangle_base * triangle_height / 2
+triangle_area = (triangle_base * triangle_height) / 2
 print(triangle_area)
 print()
 print("I just calculated something, but that output is not very useful.")
