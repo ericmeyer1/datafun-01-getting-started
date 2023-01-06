@@ -362,6 +362,8 @@ Change the open boxes [ ] below to checked boxes [x] as you complete the tasks.
 - [x] Task 11. Check the boxes (edit a Markdown file)
 - [x] Task 12. Commit changes (with a message!) and push to GitHub
 
+# TEST TEST TES TES TEST - PUSH TO GITHUB REPO!!
+
 Finally - after your initial commit and push, you can check the last box. 
 Check the box, commit your changes (with a message!), and push/sync again. 
 
