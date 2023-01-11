@@ -101,7 +101,7 @@ In general, after installing and configuring any new tool:
 - Click and explore the menus, tabs, icons. Try to get an overview of what is possible and how things are arranged. 
 - Hovering the mouse over an icon in VS Code will provide a 'tooltip' with more information.
 
-## Task 2. - Install Git
+## Task 2. Install Git
 
 If you don't already have Git, follow the instructions. 
 If you think you might, try checking the version as shown below.
@@ -116,7 +116,7 @@ Verify installation by checking the version. Open a new Terminal (macOS) or Powe
 `git version`
 
 
-## Task 3. - Install Miniconda3
+## Task 3. Install Miniconda3
 
 If you don't already have Python, follow these instructions. 
 
@@ -173,7 +173,7 @@ Congratulations - that's a great start - being able to execute Python commands m
 
 ✅ Accessing Python interactive mode is a generally useful skill in analytics.
 
-## Task 4. - Install VS Code Editor
+## Task 4. Install VS Code Editor
 
 Install the **VS Code** editor from here: <https://code.visualstudio.com/download>.
 
@@ -187,7 +187,7 @@ Explore the information provided - check out the menus.
 
 _Recommendation: In VS Code, verify File / Autosave is checked._  
 
-## Task 5. - Install VS Code Extension: Python
+## Task 5. Install VS Code Extension: Python
 
 After VS Code installs, install the VS Code Python extension from here: <https://marketplace.visualstudio.com/items?itemName=ms-python.python>.
 
@@ -196,7 +196,7 @@ If you have troubles installing, click the link that says "Trouble Installing?" 
 Once you install the extension, it'll ask if you want to get started with Jupyter Notebooks.
 Ignore this for now - close that tab in VS Code.
 
-## Task 6. - Install VS Code Extension: GitHub Repositories
+## Task 6. Install VS Code Extension: GitHub Repositories
 
 In VS Code, look at the icons down the left. Look for 4 squares.
 Mouse over it to see the tooltip "Extensions". Click it. 
@@ -385,6 +385,25 @@ Toggle it in Mac Finder with Command Shift . ("command shift dot").
 Your repo has a hidden .git folder that maintains changes to your code.
 Do a web search to learn more as needed.
 
+## Tips and Troubleshooting
+
+### Issue: VS Code - No Source Control Icon
+
+Suggestion: If you're in VS Code, and you don't see the Source Control icon with a blue bubble, right-click on the sidebar icons, and make sure "Source Control" is checked.  
+
+### Issue: VS Code - Conda Error on Execute
+
+Suggestion: If you're in VS Code, On Windows, trying to run a script or execute a conda command and you get an error "conda: The term 'conda' is not recognized as a name of a cmdlet, function, script file, or executable program." Your VS Code terminal is likely Powershell (look for a the PS before your path). We want to switch it to "Command Prompt" for Python commands. From the VS Code menu / View / Command Palette. Start typing 'Terminal: Select Default Profile' until it appears, click it and change from Powershell to Command Prompt.
+
+### Issue: VS Code wants to install Pylance extension
+
+Suggestion: Sure. If VS Code suggests an extension, it's often good to go ahead and try it. 
+Read up a bit if curious, but the suggestions are usually helpul. 
+
+### Issue: VS Code Extension for GitHub - which one?
+
+Suggestion: VS Code Extension: [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) seems to work well and may especially good for beginners. 
+If you get a recommendation to use [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github), you can try that. It might be more suitable for experienced developers. [Here's a good article for getting started](https://www.techrepublic.com/article/add-github-vs-code/). You're encouraged to share your thoughts in the discussions.
 
 ## Additional Resources
 
