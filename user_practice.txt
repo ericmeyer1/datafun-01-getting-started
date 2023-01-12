@@ -19,3 +19,262 @@ hello
 >>> print( min (a, b))
 3
 >>> 
+
+# Eric's project 1 task 3 ipython code:
+
+Python 3.10.8 | packaged by conda-forge | (main, Nov 24 2022, 14:07:00) [MSC v.1916 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 8.7.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: 45 + 72
+Out[1]: 117
+
+In [2]: x = 7
+
+In [3]: y = 3
+
+In [4]: print(x + y)
+10
+
+In [5]: x + y
+Out[5]: 10
+
+In [6]: total = x + y
+
+In [7]: print(total)
+10
+
+In [8]: total
+Out[8]: 10
+
+In [9]: type(x)
+Out[9]: int
+
+In [10]: type(10.5)
+Out[10]: float
+
+In [11]: total = 10.8 + 12.2 + 0.2
+
+In [12]: total
+Out[12]: 23.2
+
+In [13]: print(total)
+23.2
+
+In [14]: 7 * 4
+Out[14]: 28
+
+In [15]: 2 ** 10
+Out[15]: 1024
+
+In [16]: 9 ** (1/2)
+Out[16]: 3.0
+
+In [17]: 7 / 4
+Out[17]: 1.75
+
+In [18]: 7 // 4
+Out[18]: 1
+
+In [19]: 3 // 5
+Out[19]: 0
+
+In [20]: 14 // 7
+Out[20]: 2
+
+In [21]: -13 / 4
+Out[21]: -3.25
+
+In [22]: -13 // 4
+Out[22]: -4
+
+In [23]: 123 / 0
+---------------------------------------------------------------------------
+ZeroDivisionError                         Traceback (most recent call last)
+Cell In[23], line 1
+----> 1 123 / 0
+
+ZeroDivisionError: division by zero
+
+In [24]: z + 7
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[24], line 1
+----> 1 z + 7
+
+NameError: name 'z' is not defined
+
+In [25]: 17 % 5
+Out[25]: 2
+
+In [26]: 7.5 % 3.5
+Out[26]: 0.5
+
+In [27]: 10 * (5 + 3)
+Out[27]: 80
+
+In [28]: 10 * 5 + 3
+Out[28]: 53
+
+In [29]: # testing to see results of comments in ipython
+
+In [30]: #could have labeled each of these learnings in chapter 2, but will begin now
+
+In [31]: # 2.3 self check #3
+
+In [32]: 3 * (4 - 5)
+Out[32]: -3
+
+In [33]: 3 * 4 - 5
+Out[33]: 7
+
+In [34]: # parenthesees not redundant due to order of operations
+
+In [35]: # 2.3 self check #4
+
+In [36]: 4 ** 3 ** 2
+Out[36]: 262144
+
+In [37]: (4 ** 3) ** 2
+Out[37]: 4096
+
+In [38]: 4 ** (3 ** 2)
+Out[38]: 262144
+
+In [39]: # parentheses in last line are redundant
+
+In [40]: # 2.4 - Print function and single/double quoted strings
+
+In [41]: print('Welcome to Python!')
+Welcome to Python!
+
+In [42]: print("Welcome to Python")
+Welcome to Python
+
+In [43]: print('Welcome', 'to', 'Python!')
+Welcome to Python!
+
+In [44]: print('Welcome\nto\n\nPython!')
+Welcome
+to
+
+Python!
+
+In [45]: # \n = return or enter in code
+
+In [46]: print('Welcome\tto\tPython')
+Welcome to      Python
+
+In [47]: print('Welcome\\test\\Python')
+Welcome\test\Python
+
+In [48]: print('this is a longer string, so we \
+    ...: split it over two lines')
+this is a longer string, so we split it over two lines
+
+In [49]: print('Sum is', 7 + 3)
+Sum is 10
+
+In [50]: # 2.4 - self check #3
+
+In [51]: type('word')
+Out[51]: str
+
+In [52]: # 2.4 - self check #4
+
+In [53]: print('int(5.2)', 'truncates 5.2 to', int(5.2))
+int(5.2) truncates 5.2 to 5
+
+In [54]: ## 2.5 - TRIPLE-QUOTED STRINGS ##
+
+In [55]: print('display "hi" in quotes')
+display "hi" in quotes
+
+In [56]: print('display 'hi' in quotes')
+  Cell In[56], line 1
+    print('display 'hi' in quotes')
+          ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+In [57]: print('display \'hi\' in quotes')
+display 'hi' in quotes
+
+In [58]: print("Display the name O'Brien")
+Display the name O'Brien
+
+In [59]: print("""Display "hi" and 'bye' in quotes""")
+Display "hi" and 'bye' in quotes
+
+In [60]: triple_quoted_string = """This is a triple-quoted
+    ...: string that spans two lines"""
+
+In [61]: print(triple_quoted_string)
+This is a triple-quoted
+string that spans two lines
+
+In [62]: # 2.5 - self check #2
+
+In [63]: print("""This is a lengthy
+    ...: multiline string containing
+    ...: a few lines \
+    ...: of text""")
+This is a lengthy
+multiline string containing
+a few lines of text
+
+In [64]: ## 2.6 - GETTING INPUT FROM THE USER ##
+
+In [65]: name = input("What's your name?")
+What's your name? Eric
+
+In [66]: print(name)
+ Eric
+
+In [67]: value1 = input('Enter first number: ')
+Enter first number: 7
+
+In [68]: value2 = input('Enter second number: ')
+Enter second number: 3
+
+In [69]: value1 + value2
+Out[69]: '73'
+
+In [70]: # input function always returns a string
+
+In [71]: value = input('Enter an integer: ')
+Enter an integer: 7
+
+In [72]: value = int(value)
+
+In [73]: value
+Out[73]: 7
+
+In [74]: another_value = int(input('Enter another integer: '))
+Enter another integer: 13
+
+In [75]: another_value
+Out[75]: 13
+
+In [76]: # BOOM! Converting strings to integers. Python is great.
+
+In [77]: value + another_value
+Out[77]: 20
+
+In [78]: bad_value = int(input('Enter another integer: '))
+Enter another integer: hey
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+Cell In[78], line 1
+----> 1 bad_value = int(input('Enter another integer: '))
+
+ValueError: invalid literal for int() with base 10: 'hey'
+
+In [79]: int(10.5)
+Out[79]: 10
+
+In [80]: float(10)
+Out[80]: 10.0
+
+In [81]: float('6.2') * 3.3
+Out[81]: 20.46
