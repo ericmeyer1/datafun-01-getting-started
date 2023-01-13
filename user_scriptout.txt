@@ -1,1 +1,22 @@
 # Paste the output from a sample run here.
+
+Enter three employee's PTO balances in hours and I will tell you a PTO summary.
+
+Enter first employee's PTO balance: 45.63
+Enter second employee's PTO balance: 143.4
+Enter third employee's PTO Balance: 94.52
+
+Employee PTO Summary:
+
+Total of all employee PTO balances: 283.55
+Average employee PTO balance: 94.52
+Product of all employee PTO balances: 618476.69
+Smallest employee PTO balance: 45.63
+Largest employee PTO balance: 143.4
+Range of employee PTO balances: 45.63 - 143.4
+
+Employee PTO Evaluation:
+
+Employee 1 has a lower than average PTO balance!
+Employee 2 has a higher than average PTO balance.
+Employee 3 has an average PTO balance.
