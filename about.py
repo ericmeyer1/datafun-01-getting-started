@@ -71,6 +71,8 @@ def get_header(fn):
 
  The active environment should be either conda OR pip (one should be None):
 
+# Closed VS Code, opened Anaconda command prompt, ran "conda init", opened VS Code, and ran code in "about.py", conda env is activated!!
+
      Active conda env is: {os.environ.get('CONDA_DEFAULT_ENV') }
      Active pip env is:   {os.environ.get('PIP_DEFAULT_ENV')}
  
